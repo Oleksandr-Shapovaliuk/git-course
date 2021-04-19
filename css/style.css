@@ -44,3 +44,50 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* !=========== END COMMON ===========! */
+
+/* !=========== HEADER ===========! */
+
+.page-header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  color: #2a2a2a;
+}
+
+.logo__accented {
+  color: #ff2222;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-list__link {
+  color: #2a2a2a;
+  font-size: 16px;
+
+  transition: color 250ms linear;
+}
+
+.nav-list__link:hover,
+.nav-list__link:focus {
+  color: #ff2222;
+}
+
+/* !=========== END HEADER ===========! */
